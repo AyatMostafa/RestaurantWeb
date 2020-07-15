@@ -7,29 +7,35 @@
   padding: 50px 0px;
   border-bottom: 1px ridge;
   min-height: 400px; }
-
-.footer {
-  background-color: #D1C4E9;
-  margin: 0px auto;
-  padding: 20px 0px; }
-
+ 
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
+  background: #6c757d;
   color: floralwhite; }
 
 address {
   font-size: 80%;
   margin: 0px;
-  color: #0f0f0f; }
+  /* color: #0f0f0f; */
+ }
 
+  .footer {
+    background-color: #444345;
+    color: floralwhite; 
+    margin: 0px auto;
+    padding: 20px 0px; }
+  
+  .aboutuss{
+    color: floralwhite; 
+  }   
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
 
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #6c757d; 
+}
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -52,3 +58,15 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  .modal-header button {
+    color: floralwhite; }
+
+.modal-body {
+  background: #D1C4E9; }
+
+.modal-footer {
+  background: #9575CD; }
